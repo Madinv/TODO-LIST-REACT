@@ -140,3 +140,53 @@ h1 {
 .active:hover {
   scale: 1.1;
 }
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .todoWpapper {
+    width: 90%;
+    margin: 10px auto;
+    padding: 15px;
+  }
+
+  .todoInput {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .todoInputItem {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .todoInputItem input {
+    width: 100%;
+  }
+
+  .btnArea {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .todoList {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .todoListItem {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  .icon,
+  .checkIcon {
+    font-size: 25px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+}
